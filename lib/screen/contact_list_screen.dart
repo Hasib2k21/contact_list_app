@@ -22,6 +22,10 @@ class _ContactListScreenState extends State<ContactListScreen> {
         title: const Center(child: Text('Contact List')),
         backgroundColor: Colors.blueGrey,
         foregroundColor: Colors.white,
+        shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+                topRight: Radius.circular(25), topLeft: Radius.circular(25))),
+        toolbarHeight: 80,
       ),
       body: Column(
         children: [
