@@ -25,7 +25,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
         shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
                 topRight: Radius.circular(25), topLeft: Radius.circular(25))),
-        toolbarHeight: 80,
+        toolbarHeight: 75,
       ),
       body: Column(
         children: [
